@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.android.exercise.according.to.video2.viewpagerexampleactivity">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+<!--        Topic 9 TabLayout Activity     java classes are TabLayoutExampleActivity.java,
+  PagerAdapter.java, CallsFragment.java,ChatsFragment.java and StatusFragment.java and with their
+  associated xml files-->
+        <activity android:name=".TabLayoutExampleActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+
+
+
+        <!--
+Topic 8 is view pager and its associated files are
+CustomViewPagerAdapter.java , MainActivity.java, ModelObject.java and 
+ activity_main.xml, view_blue.xml, view_green.xml,view_red.xml
+        -->
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>
